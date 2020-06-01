@@ -34,7 +34,7 @@ variable "log_verbose" {
 
 variable "description" {
   type        = string
-  description = "(Optional) A description for this credential."
+  description = "(Optional) A description for this runbook."
 }
 
 variable "publish_content_link" {
@@ -49,5 +49,5 @@ description = "Script file path"
 
 variable "tags" {
   type        = map(string)
-  description = "(Required) Specifies the supported Azure location where the resource exists."
+  description = "tags"
 }
