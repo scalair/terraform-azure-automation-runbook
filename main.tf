@@ -1,7 +1,3 @@
-provider "azurerm" {
-  features {}
-}
-
 data "local_file" "script_path" {
   filename = var.script_path
 }
